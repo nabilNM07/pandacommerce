@@ -32,6 +32,7 @@
 .cat1, .cat2, .cat3{
     padding: 10px 30px;
     border-radius: 10px;
+    transition: 1s;
 }
 .cat1{
     background-color: orange;
@@ -49,3 +50,20 @@
 .categories img{
     width: 100px;
 }
+.categories{
+    transition: 1s;
+}
+.cat1:hover{
+    transform: rotate(10deg) scale(1.05);
+    box-shadow: 1px 1px 9px black;
+    
+}
+.cat2:hover{
+    transform: rotate(-10deg) scale(1.05);
+    box-shadow: 1px 1px 9px black;
+}
+.cat3:hover{
+    transform: rotate(10deg) scale(1.05);
+    box-shadow: 1px 1px 9px black;
+}
+
