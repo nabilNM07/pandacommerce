@@ -66,4 +66,18 @@
     transform: rotate(10deg) scale(1.05);
     box-shadow: 1px 1px 9px black;
 }
-
+.card{
+    border: none;
+    border-radius: 5px;
+    box-shadow: 5px 5px 20px lightgray;
+}
+#subscribe{
+    height: 300px;
+}
+#subscribe h6{
+    color: gray;
+    font-family: cursive;
+}
+footer{
+    text-align: center;
+}
